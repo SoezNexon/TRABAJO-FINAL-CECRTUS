@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulario Login</title>
+
+    <!-- Agregar los estilos de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Agregar los estilos personalizados -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="form-login">
+        <!-- titulo del formulario login -->
+        <h2>Iniciar Sesión</h2>
+
+        <!-- entrada de usuario -->
+        <div class="input-group mb-3">
+            <span class="input-group-text bg-primary"><i class="bi bi-person-plus-fill text-white"></i></span>
+            <input class="form-control" type="text" placeholder="Usuario" aria-label="default input example"
+                maxlength="50" required>
+        </div>
+
+        <!-- entrada de contraseña -->
+        <div class="input-group mb-3">
+            <span class="input-group-text bg-primary"><i
+                class="bi bi-key-fill text-white"></i></span>
+            <input class="form-control" type="password" placeholder="Contraseña" aria-label="default input example"
+                maxlength="20" required>
+        </div>
+
+        <!-- entrada de boton -->
+        <div class="mb-3">
+            <button onclick="location.href='tienda.html'" class="btn btn-primary" type="submit">Ingresar</button>
+        </div>
+        <p><a href="#">¿Olvidastes tu Contraseña?</a></p>
+
+    </section>
+
+</body>
+
+</html>
